@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.min.css">
+
+
+</head>
+
+<body>
+   <div class="wrapper">
+      <header>
+         <div class="header__container">
+            <div class="header__wrapper">
+               <div class="header__nav">
+                  <div class="nav__logo"><img src="images/Vector.svg" alt=""></div>
+                  <div class="nav__menu">
+                     <div class="nav__burger"><span></span></div>
+                     <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link">NEW CARS</a></li>
+                        <li class="nav__item"><a class="nav__link">PRE-OWNED CARS</a></li>
+                        <li class="nav__item"><a class="nav__link">FINANCE</a></li>
+                        <li class="nav__item"><a class="nav__link">LEASE VS BUY</a></li>
+                        <li class="nav__item"><a class="nav__link">CONTACT US</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="header__main">
+                  <h1 class="header__main-title">Leasing From D&M</h1>
+                  <button class="header__main-button"> FIND A CAR</button>
+               </div>
+            </div>
+         </div>
+         <div class="slider">
+            <div class="swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide" style="background-image: url('images/carSlider.avif');">
+                  </div>
+                  <div class="swiper-slide" style="background-image: url('images/911slider.avif'); ">
+                  </div>
+                  <div class="swiper-slide" style="background-image: url('images/car3Slider.avif');">
+                  </div>
+
+               </div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+      </header class="header">
+
+      <main>
+         <section class="why">
+            <div class="why__container">
+               <h1 class="why__title-big">Why Lease with D&M?</h1>
+               <div class="why__list">
+                  <div class="why__item">
+                     <div class="why__image"><img src="images/Group 1.svg" alt=""></div>
+                     <h3 class="why__title-normal">Top Dealers</h3>
+                     <p class="why__text">TrueCar Certified Dealers compete for your business by providing discounted
+                        pricing on in-stock inventory.</p>
+                  </div>
+                  <div class="why__item">
+                     <div class="why__image"><img src="images/Group 2.svg" alt=""></div>
+                     <h3 class="why__title-normal">Discounted Pricing</h3>
+                     <p class="why__text">View local inventory from the comfort of home and get access to guaranteed
+                        savings on the car of your choice.</p>
+                  </div>
+                  <div class="why__item">
+                     <div class="why__image"><img src="images/Group3.svg" alt=""></div>
+                     <h3 class="why__title-normal">Lower Payments</h3>
+                     <p class="why__text">Get discounted pricing when you shop for a car or truck using TrueCar and save
+                        on your lease payment.</p>
+                  </div>
+                  <div class="why__item">
+                     <div class="why__image"><img src="images/Group 4.svg" alt=""></div>
+                     <h3 class="why__title-normal">Easy Upgrade</h3>
+                     <p class="why__text">Easy to upgrade to the newest vehicle model every few years if you would like
+                        to be modern and comfortable</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="work">
+            <div class="work__container">
+               <h1 class="work__title-big">How Does Leasing Work?</h1>
+               <p class="work__text">Leasing a vehicle is essentially entering into a long term rental agreement for
+                  that vehicle. Unlike a
+                  traditional car purchase, you don’t actually own the vehicle. Instead, a leasing company purchases the
+                  vehicle from the dealer on your behalf and then you make monthly payments to the leasing company for
+                  the duration of your lease. Some leases however, do provide the option to purchase the vehicle at the
+                  end of the lease.</p>
+               <h3 class="work__title-normal">Similar to a short term car rental, there are rules that define:</h3>
+               <div class="work__num">
+                  <div class="work__num-number">
+                     <div class="num-number__button__title-big" data-button="n-first">1</div>
+                     <div class="num-number__button__title-big" data-button="n-second">2</div>
+                     <div class="num-number__button__title-big" data-button="n-third">3</div>
+                  </div>
+                  <ul class="work__num-list">
+                     <li class="num-list__text n-first">How much you can drive, stated as annual miles (excess
+                        miles are
+                        charged
+                        at
+                        a specified rate)</li>
+                     <li class="num-list__text n-second">Types of damage that you may be liable for at the end of your
+                        lease</li>
+                     <li class="num-list__text n-third">The procedures and costs when you return the vehicle at the end
+                        of your
+                        lease</li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section class="catalog">
+            <div class="catalog__container" id="products">
+
+            </div>
+         </section>
+      </main>
+      <!---->
+      <footer>
+
+      </footer>
+   </div>
+
+   <div class="preloader" id="preloader">
+      <div class="prelaoder__loader">
+         <div class="loadingio-spinner-rolling-wlpc4raaiar">
+            <div class="ldio-p2mhw60dp4e">
+               <div></div>
+            </div>
+         </div>
+
+         <span class="preloader__percent">
+            <span id="percent"></span>
+         </span>
+      </div>
+   </div>
+   <div class="counterShop" id="pay">
+   </div>
+   <section id="shopping">
+
+   </section>
+
+   <div class="changecolor">change color mode</div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script type="module" src="js/swiper.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/component/cotolog.js"></script>
+<script src="js/component/root.js"></script>
+<script src="utils/localStorageUtil.js"></script>
+<script src="js/component/pay.js"></script>
+<script src="js/component/shopping.js"></script>
+<script src="js/component/products.js"></script>
+
+
+</html>
